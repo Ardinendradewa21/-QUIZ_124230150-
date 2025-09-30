@@ -7,7 +7,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  // Ganti dengan 3 digit terakhir NIM Anda
+  // 3 digit NIM
   final String _correctPassword = "150";
 
   final TextEditingController _usernameController = TextEditingController();
